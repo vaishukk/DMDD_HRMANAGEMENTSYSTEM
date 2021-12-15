@@ -221,3 +221,32 @@ values (9,2,'9:00AM','7:00PM','N/A');
 insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
 values (10,2,'9:00AM','1:00AM','Personal issue');
 
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (1,2,'laptop','electronics','work from home','2016/09/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (2,3,'savings account','finance','joining','2020/08/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (3,7,'pension','finance','retirement','2017/10/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (4,8,'bonus','finance','immediate joining bonus','2020/08/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (5,5,'laptop','electronics','work from home','2015/09/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (6,2,'stocks','finance','appreciation bonus','2020/01/06');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (7,4,'savings account','finance','joining','2018/12/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (8,7,'bonus','finance','immediate joining bonus','2019/11/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (9,5,'stocks','finance','immediate joining bonus','2017/08/08');
+
+insert into asset(asset_id,emp_id,asset_name,asset_type,asset_details,creation_date)
+values (10,4,'laptop','electronics','work from home','2017/04/03');
