@@ -191,3 +191,33 @@ values (5,109,'NO','A1','2016/06/18','2019/12/13','Complete');
 insert into hrms_employee_trainings (emp_id,skill_id,skills,trainings_completed,project_id,start_date,end_date,status)
 values (5,110,'NO','A2','2019/08/04','2021/12/13','Inprogress');
 
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (1,2,'9:00AM','7:00PM','N/A');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (2,4,'10:00AM','7:00PM','personal issue');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (3,6,'9:00AM','7:00PM','N/A');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (4,2,'12:00PM','7:00PM','half-day');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (5,10,'9:00AM','4:00PM','Not well');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (6,5,'9:00AM','2:00PM','personal issue');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (7,9,'9:00AM','7:00PM','N/A');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (8,5,'9:00AM','2:00PM','half-day');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (9,2,'9:00AM','7:00PM','N/A');
+
+insert into hrms_employee_attendance (attendance_id,emp_id,time_in,time_out,remarks)
+values (10,2,'9:00AM','1:00AM','Personal issue');
+
