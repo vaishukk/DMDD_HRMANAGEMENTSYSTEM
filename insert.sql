@@ -777,13 +777,115 @@ insert into skills (skill_id, skills, skill_level) values (6097, 'MSP Practition
 insert into skills (skill_id, skills, skill_level) values (6098, 'WHIMS','Beginner');
 insert into skills (skill_id, skills, skill_level) values (6099, 'Corporate Real Estate','Intermediate');
 insert into skills (skill_id, skills, skill_level) values (6100, 'Sales','Intermediate');
+                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                                 
+
+
+                                                                                                 
 
 
 
 
 
-
-
-
-
-
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (301, 1020,'laptop','electronics','In use','2021-02-23');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (302, 1087,'projectors','accessories','Requested','2021-03-31');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (303, 1060,'desktop','electronics','Returned','2021-08-03');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (304, 1039,'desktop','electronics','Requested','2021-03-05');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (305, 1057,'speakers','accessories','In use','2021-11-13');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (306, 1100,'spikeguard','accessories','Requested','2021-06-23');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (307, 1018,'laptop','electronics','In use','2021-01-14');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (308, 1055,'projectors',accessories','In use','2021-05-18');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (309, 1057,'desktop','electronics','Returned','2021-09-16');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (310, 1034,'keyboard','electronics','In use','2021-03-23');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (311, 1003,'mouse','electronics','Returned','2021-11-02');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (312, 1045,'projectors','accessories','In use','2021-02-14');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (313, 1052,'spikeguard','accessories','Requested','2021-02-10');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (314, 1095,'projectors','accessories','In use','2021-08-07');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (315, 1083,'desktop','electronics',Returned','2021-07-21');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (316, 1049,'keyboard','electronics',In use','2021-03-14');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (317, 1080,'spikeguard','accessories','Requested','2021-10-02');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (318, 1029,'projectors,'accessories','In use','2021-01-08');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (319, 1045,'desktop','electronics','Returned','2021-09-02');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (320, 1012,'mouse','electronics','In use','2021-10-16');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (321, 1048,'desktop','electronics','Requested','2021-06-04');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (322, 1050,'projectors','accessories','In use','2021-08-22');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (323, 1026,'desktop','electronics','Requested','2021-01-20');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (324, 1057,'mouse','electronics','Returned','2021-04-12');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (325, 1002,'keyboard','electronics','In use','2021-05-03');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (326, 1020,'projectors,'accessories','Returned','2021-04-12');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (327, 1012,'desktop','electronics','Requested','2021-04-28');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (328, 1022,'keyboard','electronics','In use','2021-01-12');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (329, 1008,'desktop','electronics','Requested','2021-02-22');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (330, 1050,'projectors','accessories','In use','2021-06-06');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (331, 1033,'spikeguard','accessories','Requested','2021-07-12');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (332, 1028,'speakers','accessories','In use','2021-12-01');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (333, 1077,'projectors','accessories','Requested','2021-04-26');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (334, 1072,'desktop','electronics','Requested','2021-10-21');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (335, 1069,'speakers','accessories','In use','2021-02-19');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (336, 1012,'projectors','accessories','Returned','2021-08-15');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (337, 1039,'speakers','accessories','Returned','2021-01-02');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (338, 1010,'spikeguard','accessories','In use','2021-05-07');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (339, 1067,'desktop','electronics','Returned','2021-04-07');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (340, 1019,'keyboard','electronics','Requested','2021-07-10');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (341, 1022,'speakers','accessories','In use','2021-04-17');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (342, 1037,'desktop','electronics','Requested','2021-03-16');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (343, 1048,'mouse','electronics','Requested','2021-07-02');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (344, 1079,'speakers','accessories','Requested','2021-03-04');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (345, 1002,'laptop','electronics','Returned','2021-02-27');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (346, 1005,'desktop','electronics','Requested','2021-12-15');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (347, 1078,'laptop','electronics','Returned','2021-11-26');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (348, 1092,'keyboard','electronics','In use','2021-10-10');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (349, 1093,'speakers','accessories','Returned','2021-08-04');
+insert into asset (asset_id, emp_id,asset_name,asset_type,asset_details,creation_date) values (350, 1014,'desktop','electronics','Requested','2021-05-31');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (351,1038,'speakers','accessories','Requested',''2021-09-04'');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (352,1021,'desktop','electronics','Requested','2021-07-24');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (353,1097,'laptop','electronics','Returned','2021-12-14');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (354,1073,'desktop','electronics','In use','2021-09-15');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (355,1098,'laptop','electronics','Returned','2021-07-10');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (356,1001,'desktop','electronics','In use','2021-09-10');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (357,1006,'mouse','electronics','Requested','2021-12-02');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (358,1002,'keyboard','electronics','In use','2021-03-19');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (359,1046,'laptop','electronics','Requested','2021-12-15');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (360,1009,'desktop','electronics','Returned','2021-02-14');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (361,1010,'laptop','electronics','In use','2021-05-27');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (362,1034,'laptop','electronics','Requested','2021-08-17');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (363,1054,'desktop','electronics','Returned','2021-11-07');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (364,1008,'laptop','electronics','Requested','2021-01-29');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (365,1042,'speakers','accessories','In use','2021-02-10');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (366,1033,'mouse','electronics','Requested','2021-06-01');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (367,1057,'keyboard','electronics','In use','2021-01-15');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (368,1087,'desktop','electronics','Returned','2021-11-05');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (369,1021,'projectors','accessories','In use','2021-06-07');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (370,1085,'laptop','electronics','Requested','2021-09-16');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (371,1092,'spikeguard','accessories','In use','2021-01-18');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (372,1098,'desktop','electronics','Returned','2021-09-14');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (373,1019,'laptop','electronics','Requested','2021-10-19');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (374,1013,'mouse','electronics','Returned','2021-04-08');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (375,1041,'speakers','accessories','In use','2021-06-11');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (376,1025,'spikeguard','electronics','Returned','2021-04-09');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (377,1079,'desktop','electronics','Requested','2021-08-05');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (378,1001,'laptop','electronics','In use','2021-07-21');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (379,1010,'mouse','electronics','Returned','2021-02-17');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (380,1049,'keyboard','electronics','Requested','2021-10-28');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (381,1055,'laptop','electronics','In use','2021-01-09');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (382,1046,'desktop','electronics','Returned','2021-11-11');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (383,1081,'mouse','electronics','Requested','2021-09-25');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (384,1068,'keyboard','electronics','Returned','2021-11-15');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (385,1056,'speakers','accessories','In use','2021-04-01');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (386,1017,'desktop','electronics','Requested','2021-01-26');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (387,1009,'projectors','accessories','Returned','2021-09-11');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (388,1070,'laptop','electronics','In use','2021-03-14');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (389,1036,'laptop','electronics','Returned','2021-04-25');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (390,1085,'desktop','electronics','Requested','2021-08-17');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (391,1095,'speakers','accessories','In use','2021-09-21');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (392,1060,'projectors','accessories','Requested','2021-02-08');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (393,1096,'laptop','electronics','In use','2021-11-24');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (394,1025,'laptop','electronics','Returned','2021-10-21');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (395,1083,'spikeguard','accessories','In use','2021-08-21');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (396,1087,'laptop','accessories','Returned','2021-09-28');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (397,1097,'keyboard','electronics','In use','2021-04-20');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (398,1063,'mouse','electronics','In use','2021-06-21');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (399,1026,'desktop','electronics','Requested','2021-08-29');
+insert into asset ( asset_id, emp_id, asset_name, asset_type, asset_details, creation_date) values (400,1086,'speakers','accessories','Returned','2021-08-02');
