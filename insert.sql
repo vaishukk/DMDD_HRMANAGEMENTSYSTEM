@@ -5,7 +5,7 @@ insert into DEPARTMENT (dept_id, dept_name) values (40, 'Accounting');
 insert into DEPARTMENT (dept_id, dept_name) values (50, 'Marketing');
 insert into DEPARTMENT (dept_id, dept_name) values (60, 'Finanace');
 insert into DEPARTMENT (dept_id, dept_name) values (70, 'Operations');
-insert into DEPARTMENT (dept_id, dept_name) values (80, 'Production')
+insert into DEPARTMENT (dept_id, dept_name) values (80, 'Production');
 
 
 
