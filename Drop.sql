@@ -42,6 +42,8 @@ DROP table hrms_kra_kpi CASCADE CONSTRAINTS;
 
 DROP table WAGES CASCADE CONSTRAINTS;
 
+DROP table hrms_employee_details_log ;
+
     
 
 
