@@ -1,3 +1,5 @@
+alter session set NLS_DATE_FORMAT='YYYY-MM-DD'
+
 insert into DEPARTMENT (dept_id, dept_name) values (10, 'Research and Development');
 insert into DEPARTMENT (dept_id, dept_name) values (20, 'Sales');
 insert into DEPARTMENT (dept_id, dept_name) values (30, 'Human Resources');
