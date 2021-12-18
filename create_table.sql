@@ -86,8 +86,6 @@ create table hrms_employee_details_log(
     employment_date DATE NOT NULL,
     reporting_manager VARCHAR2(50) NOT NULL,
     creation_date DATE,
-    update_date DATE,
-    ip_address VARCHAR(15),
     upd_ip_address VARCHAR(15),
     Upd_date DATE,
     Status VARCHAR2(15)
@@ -176,7 +174,31 @@ create table hrms_kpi(
     CONSTRAINT employeid FOREIGN KEY (emp_id) REFERENCES hrms_employee_details(emp_id)
 );
 
-
+--DROP table hrms_employee_details_log;
+create table hrms_employee_details_log(
+    emp_id NUMBER(5) NOT NULL,
+    first_name VARCHAR2(50) NOT NULL,
+    middle_name VARCHAR2(50) NOT NULL,
+    last_name VARCHAR2(50) NOT NULL,
+    designation_id NUMBER(15) NOT NULL,
+    dept_id  NUMBER(5) NOT NULL,
+    birthdate DATE NOT NULL,
+    sex VARCHAR2(10) NOT NULL,
+    company_emailid VARCHAR2(50) NOT NULL,
+    phone_no NUMBER(10)NOT NULL,
+    houseno NUMBER(15) NOT NULL,
+    street_name VARCHAR2(50) NOT NULL,
+    city VARCHAR2(50) NOT NULL,
+    pincode NUMBER(5) NOT NULL,
+    employment_date DATE NOT NULL,
+    reporting_manager VARCHAR2(50) NOT NULL,
+    creation_date DATE,
+    update_date DATE,
+    ip_address VARCHAR(15),
+    upd_ip_address VARCHAR(15),
+    Upd_date DATE,
+    Status VARCHAR2(15)
+);
     
 
 
