@@ -12,10 +12,10 @@ end if;
 END;
 /
 
-CREATE OR REPLACE TRIGGER emp_trg BEFORE INSERT OR UPDATE ON hrms_employee_details
+CREATE OR REPLACE TRIGGER emp_trg_ip BEFORE INSERT OR UPDATE ON hrms_employee_details
 FOR EACH ROW
 DECLARE 
-v_asset i := 0;
+v_asset NUMBER(12) := 0;
 ip_Add varchar2(15);
 v_incval NUMBER(12) := 0;
 BEGIN
@@ -23,6 +23,7 @@ BEGIN
 select ip_fetch into ip_Add from dual;
 :new.creation_date := sysdate;
 :new.ip_address  := ip_add;
+END IF;
 END;
 /
 
