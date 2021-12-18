@@ -157,6 +157,7 @@ create table hrms_employee_leaves(
 create table hrms_employee_attendance(
     attendance_id NUMBER NOT NULL,
     emp_id  NUMBER NOT NULL,
+    attendance_date DATE NOT NULL,
     time_in VARCHAR2(20) NOT NULL,
     time_out VARCHAR(20) NOT NULL,
     remarks VARCHAR2(100) NOT NULL,
