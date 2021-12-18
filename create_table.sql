@@ -62,12 +62,38 @@ create table hrms_employee_details(
     employment_date DATE NOT NULL,
     reporting_manager VARCHAR2(50) NOT NULL,
     creation_date DATE,
-    update_date DATE,
-    ip_address VARCHAR(15),
     PRIMARY KEY(emp_id),
     CONSTRAINT FK_DEPT FOREIGN KEY (dept_id) REFERENCES DEPARTMENT(dept_id),
     CONSTRAINT FK_DESIGNATION FOREIGN KEY (designation_id) REFERENCES DESIGNATION(designation_id)
 );
+
+--log table
+create table hrms_employee_details_log(
+    emp_id NUMBER(5) NOT NULL,
+    first_name VARCHAR2(50) NOT NULL,
+    middle_name VARCHAR2(50) NOT NULL,
+    last_name VARCHAR2(50) NOT NULL,
+    designation_id NUMBER(15) NOT NULL,
+    dept_id  NUMBER(5) NOT NULL,
+    birthdate DATE NOT NULL,
+    sex VARCHAR2(10) NOT NULL,
+    company_emailid VARCHAR2(50) NOT NULL,
+    phone_no NUMBER(10)NOT NULL,
+    houseno NUMBER(15) NOT NULL,
+    street_name VARCHAR2(50) NOT NULL,
+    city VARCHAR2(50) NOT NULL,
+    pincode NUMBER(5) NOT NULL,
+    employment_date DATE NOT NULL,
+    reporting_manager VARCHAR2(50) NOT NULL,
+    creation_date DATE,
+    update_date DATE,
+    ip_address VARCHAR(15),
+    upd_ip_address VARCHAR(15),
+    Upd_date DATE,
+    Status VARCHAR2(15)
+);
+
+
 
 --DROP table hrms_employee_projects CASCADE CONSTRAINTS;
 create table hrms_employee_projects(
@@ -142,13 +168,11 @@ create table hrms_employee_attendance(
 
 
 --DROP table hrms_kra_kpi CASCADE CONSTRAINTS;
-create table hrms_kra_kpi(
+create table hrms_kpi(
     emp_id  NUMBER NOT NULL,
     financial_year NUMBER NOT NULL,
-    key_result_area VARCHAR(20) NOT NULL,
-    key_performace_indicator NUMBER NOT NULL,
-    kpi_target NUMBER NOT NULL,
-    reviewer1_remarks VARCHAR(50)NOT NULL,
+    performace_indicator NUMBER NOT NULL,
+    reviewer_remarks VARCHAR(50)NOT NULL,
     CONSTRAINT employeid FOREIGN KEY (emp_id) REFERENCES hrms_employee_details(emp_id)
 );
 
